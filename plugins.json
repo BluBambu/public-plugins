@@ -1,14 +1,14 @@
 [{
   "projectUrl": "https://discord.gg/lucid-plugs",
   "provider": "lucid-plugins",
-  "name": "Lucid Example",
-  "description": "An example plugin that can be copied to use as a plugin skeleton. Does nothing functionally.",
-  "id": "lucidexample-plugin",
+  "name": "Kotlin Example Plugin",
+  "description": "",
+  "id": "kotlinexampleplugin-plugin",
   "releases": [{
-    "date": "2024-04-05",
-    "sha512sum": "34C0CA7DB9E77C1DDE04B8A3987DED4C00335AE8C11CD16F83D7108BBEFA000BB17FD4A919EEB4DFD4F25430C0C824B1F302788EBB09C55BCA48E7C14FB5C1EC",
-    "version": "1.0.1",
-    "url": "https://github.com/lucid-plugins/public-plugins/blob/master/release/lucid-example-plugin-1.0.1.jar?raw=true",
+    "date": "2024-04-06",
+    "sha512sum": "A87DF9EA0AFCACDB92ED172568A8BC1FAF4ED92867C2498C87E5AACCE1DCF580AA0A9E3D4931AFC81AB91FE575CF62BB43AA105E79E39A0F4FBBA9640F420E6E",
+    "version": "0.0.1",
+    "url": "https://github.com/lucid-plugins/public-plugins/blob/master/release/lucid-example-plugin-0.0.1.jar?raw=true",
     "requires": "^1.0.0"
   }]
 }]

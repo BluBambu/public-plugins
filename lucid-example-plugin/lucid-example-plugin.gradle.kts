@@ -1,7 +1,15 @@
-version = "1.0.1"
+version = "0.0.1"
 
-project.extra["PluginName"] = "Lucid Example"
-project.extra["PluginDescription"] = "An example plugin that can be copied to use as a plugin skeleton. Does nothing functionally."
+project.extra["PluginName"] = "Kotlin Example Plugin"
+project.extra["PluginDescription"] = ""
+
+plugins{
+    kotlin("kapt")
+}
+
+dependencies {
+    kapt(Libraries.pf4j)
+}
 
 tasks {
     jar {

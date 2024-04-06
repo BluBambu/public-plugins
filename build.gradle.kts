@@ -18,7 +18,7 @@ project.extra["GithubRepoName"] = "public-plugins"
 
 apply<JavaLibraryPlugin>()
 apply<BootstrapPlugin>()
-apply<CheckstylePlugin>()
+//apply<CheckstylePlugin>()
 
 allprojects {
     group = "com.lucidplugins"
@@ -29,7 +29,7 @@ allprojects {
 
     apply<JavaPlugin>()
     apply(plugin = "java-library")
-    apply(plugin = "checkstyle")
+//    apply(plugin = "checkstyle")
     apply(plugin = "kotlin")
 
     repositories {
